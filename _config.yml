@@ -1,23 +1,35 @@
-name: MCPhotography
 favicon: null
-layout_spectrum: 0.01522933878004551
-typography_spectrum: 0.9688923640642315
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: MCPhotography
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors: []
-  brandStrength: 0.662714232923463
-  lightness: 0.020398504566401243
-  saturation: 0.996395499445498
-  rhythmicContrast: 0.1744216037914157
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.9963955
+  brandStrength: 0.662714232923463
+  lightness: 1
+  brandColors: []
+  rhythmicContrast: 0.7007169
+typography_spectrum: 0.1290323
+layout_spectrum: 0.9193549
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
