@@ -14,6 +14,7 @@ collections:
       number: 10
     permalink:
       path: '/:title/'
+title: Melissa Cathryn Photography
 cta:
   domain: null
   bucket: null
